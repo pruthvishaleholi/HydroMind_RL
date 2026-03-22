@@ -61,7 +61,13 @@ export const useTelemetryStore = create<TelemetryStore>((set, get) => ({
     if (ws && ws.readyState === WebSocket.OPEN) return;
     
     set({ connectionStatus: 'CONNECTING' });
-    ws = new WebSocket('ws://localhost:8000/ws/telemetry');
+    
+    // Dynamic URL: Prioritize environment variable, fallback to current host:8000
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const host = import.meta.env.VITE_WS_URL || `${window.location.hostname}:8000`;
+    const finalUrl = host.includes('://') ? host : `${protocol}//${host}/ws/telemetry`;
+    
+    ws = new WebSocket(finalUrl);
 
     ws.onopen = () => {
       console.log('Backend connected');
