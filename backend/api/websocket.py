@@ -12,6 +12,13 @@ logger = get_logger("HydroMind.Websocket")
 router = APIRouter()
 twin_state = DigitalTwinState()
 
+@router.get("/health")
+async def health_check():
+    return {
+        "status": "ok",
+        "model_loaded": twin_state.model_loaded
+    }
+
 @router.websocket("/ws/telemetry")
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()

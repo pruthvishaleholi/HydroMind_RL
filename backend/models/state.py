@@ -1,5 +1,6 @@
 import numpy as np
 import torch
+import os
 import random
 from torch_geometric.data import Data
 from main import Actor, AquaFlowEnv
@@ -22,6 +23,8 @@ class DigitalTwinState:
         self.closed_links = set()
         self.ai_logs = []
         self.ai_alert = None
+        self.model_loaded = False
+        self.leak_rate_lps = 0.0
 
         logger.info("Booting AquaFlow Physics Engine...")
         self.env = AquaFlowEnv()
@@ -35,7 +38,12 @@ class DigitalTwinState:
             max_action=50.0
         )
         try:
-            self.actor.load_state_dict(torch.load("models/checkpoints/actor_final.pth"))
+            checkpoint_path = os.path.join(os.path.dirname(__file__), "..", "..", "models", "checkpoints", "actor_final.pth")
+            if os.path.exists(checkpoint_path):
+                self.actor.load_state_dict(torch.load(checkpoint_path, map_location="cpu"))
+                self.model_loaded = True
+            else:
+                logger.warning(f"Checkpoint not found at: {checkpoint_path}")
         except Exception as e:
             logger.warning(f"Could not load actor model weights: {e}")
         self.actor.eval()
