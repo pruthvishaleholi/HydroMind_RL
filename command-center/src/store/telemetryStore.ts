@@ -4,11 +4,30 @@ import { create } from 'zustand';
 export interface NodeState {
   pressure_m: number;
   demand_lps: number;
+  criticality?: number;  // 0=residential, 1=commercial, 2=critical
+  zone_id?: string;
+  status?: string;  // NORMAL, SURGE_EPICENTER, SURGE_CONE, AI_SACRIFICED, etc.
 }
 
 export interface LinkState {
   flow_lps: number;
   velocity_ms: number;
+}
+
+export interface ZoneHealth {
+  total_nodes: number;
+  healthy: number;
+  critical_nodes: number;
+  avg_pressure: number;
+  max_criticality: number;
+  health_pct: number;
+}
+
+export interface NetworkAnalytics {
+  supply_demand_gap_lps: number;
+  supply_fulfillment_pct: number;
+  zone_health: Record<string, ZoneHealth>;
+  sacrifice_candidates: string[];
 }
 
 export interface TelemetryPayload {
@@ -26,8 +45,10 @@ export interface TelemetryPayload {
   ai_logs: string[];
   ai_alert: string | null;
   ai_saved: number;
+  sacrificed_zones?: string[];
   node_states?: Record<string, NodeState>;
   link_states?: Record<string, LinkState>;
+  network_analytics?: NetworkAnalytics;
 }
 
 // --- WebSocket & State Store ---
@@ -35,12 +56,12 @@ interface TelemetryStore {
   // Data
   telemetry: TelemetryPayload | null;
   connectionStatus: 'DISCONNECTED' | 'CONNECTING' | 'CONNECTED';
-  
+
   // Phase 7: History & timing
   pressureHistory: number[];
   crisisStartTime: number | null;
   recoveredNodePct: number;
-  
+
   // Actions
   connect: () => void;
   disconnect: () => void;
@@ -59,14 +80,14 @@ export const useTelemetryStore = create<TelemetryStore>((set, get) => ({
 
   connect: () => {
     if (ws && ws.readyState === WebSocket.OPEN) return;
-    
+
     set({ connectionStatus: 'CONNECTING' });
-    
+
     // Dynamic URL: Prioritize environment variable, fallback to current host:8000
     const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
     const host = import.meta.env.VITE_WS_URL || (window.location.hostname === 'localhost' ? 'localhost:8000' : window.location.host);
     const finalUrl = host.includes('://') ? host : `${protocol}//${host}/ws/telemetry`;
-    
+
     ws = new WebSocket(finalUrl);
 
     ws.onopen = () => {
@@ -77,16 +98,17 @@ export const useTelemetryStore = create<TelemetryStore>((set, get) => ({
     ws.onmessage = (event) => {
       const payload: TelemetryPayload = JSON.parse(event.data);
       set((state) => {
-        // Merge node/link states if not provided
+        // Merge node/link states and analytics if not provided in intermediate frames
         if (state.telemetry && !payload.node_states) {
           payload.node_states = state.telemetry.node_states;
           payload.link_states = state.telemetry.link_states;
+          payload.network_analytics = state.telemetry.network_analytics;
         }
-        
+
         // Phase 7: Update pressure history (circular buffer)
         const newHistory = [...state.pressureHistory, payload.pressure_m];
         if (newHistory.length > HISTORY_MAX) newHistory.shift();
-        
+
         // Phase 7: Track crisis start time
         let crisisStart = state.crisisStartTime;
         if (
@@ -97,7 +119,7 @@ export const useTelemetryStore = create<TelemetryStore>((set, get) => ({
         } else if (payload.phase === 'AMBIENT') {
           crisisStart = null;
         }
-        
+
         // Phase 7: Compute recovery percentage from node states
         let recoveredPct = 100;
         if (payload.node_states) {
@@ -107,7 +129,7 @@ export const useTelemetryStore = create<TelemetryStore>((set, get) => ({
             recoveredPct = Math.round((healthy / nodes.length) * 100);
           }
         }
-        
+
         return {
           telemetry: payload,
           pressureHistory: newHistory,

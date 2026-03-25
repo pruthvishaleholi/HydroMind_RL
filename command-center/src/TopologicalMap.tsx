@@ -73,6 +73,7 @@ export interface TopologicalMapProps {
     onSelectTarget: (id: string | null) => void;
     onMultiSelect: (selection: Set<string>) => void;
     anomalyNode?: string | null;
+    anomalyTargets?: string[];
     nodeStates: Record<string, NodeState>;
     linkStates: Record<string, LinkState>;
     closedLinks: string[];

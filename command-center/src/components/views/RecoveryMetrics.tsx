@@ -84,6 +84,23 @@ export default function RecoveryMetrics() {
         </p>
       </div>
 
+      {/* ── AI Triage Status ── */}
+      {telemetry?.network_analytics && (
+        <div className="hm-card p-3">
+          <h4 className="text-[9px] font-bold text-slate-500 uppercase tracking-wider mb-2">Flow Redistribution</h4>
+          <div className="flex items-center justify-between mb-1">
+            <span className="text-[10px] text-slate-400">Supply Fulfillment</span>
+            <span className={`font-data text-sm font-bold ${
+              (telemetry.network_analytics.supply_fulfillment_pct ?? 100) > 80 ? 'text-emerald-400' :
+              (telemetry.network_analytics.supply_fulfillment_pct ?? 100) > 50 ? 'text-amber-400' : 'text-red-400'
+            }`}>
+              {telemetry.network_analytics.supply_fulfillment_pct ?? 100}%
+            </span>
+          </div>
+          <p className="text-[8px] text-slate-600 mt-1">AI is redistributing flow proportionally — all zones maintain minimum service</p>
+        </div>
+      )}
+
       {/* ── Decision Timeline ── */}
       <DecisionTimeline logs={telemetry?.ai_logs || []} crisisStart={crisisStartTime} />
 

@@ -8,7 +8,9 @@
       "elevation": 73.21,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n2",
@@ -18,7 +20,9 @@
       "elevation": 73.87,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n3",
@@ -28,7 +32,9 @@
       "elevation": 73.18,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n4",
@@ -38,7 +44,9 @@
       "elevation": 68.26,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n5",
@@ -48,7 +56,9 @@
       "elevation": 65.57,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n6",
@@ -58,7 +68,9 @@
       "elevation": 70.91,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n7",
@@ -68,7 +80,9 @@
       "elevation": 75.92,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 2
     },
     {
       "id": "n8",
@@ -78,7 +92,9 @@
       "elevation": 64.48,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n9",
@@ -88,7 +104,9 @@
       "elevation": 69.26,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 2
     },
     {
       "id": "n10",
@@ -98,7 +116,9 @@
       "elevation": 74.35,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n11",
@@ -108,7 +128,9 @@
       "elevation": 63.06,
       "base_demand": 0.00015,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 2
     },
     {
       "id": "n12",
@@ -118,7 +140,9 @@
       "elevation": 68.23,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n13",
@@ -128,7 +152,9 @@
       "elevation": 61.99,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n14",
@@ -138,7 +164,9 @@
       "elevation": 68.58,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n15",
@@ -148,7 +176,9 @@
       "elevation": 70.95,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n16",
@@ -158,7 +188,9 @@
       "elevation": 68.8,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n17",
@@ -168,7 +200,9 @@
       "elevation": 60.59,
       "base_demand": 0.00012,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 2
     },
     {
       "id": "n18",
@@ -178,7 +212,9 @@
       "elevation": 67.14,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n19",
@@ -188,7 +224,9 @@
       "elevation": 73.36,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n20",
@@ -198,7 +236,9 @@
       "elevation": 65.95,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n21",
@@ -208,7 +248,9 @@
       "elevation": 59.68,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n22",
@@ -218,7 +260,9 @@
       "elevation": 76.12,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n23",
@@ -228,7 +272,9 @@
       "elevation": 64.21,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n24",
@@ -238,7 +284,9 @@
       "elevation": 67.82,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n25",
@@ -248,7 +296,9 @@
       "elevation": 58.97,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n26",
@@ -258,7 +308,9 @@
       "elevation": 61.63,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n27",
@@ -268,7 +320,9 @@
       "elevation": 65.78,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n28",
@@ -278,7 +332,9 @@
       "elevation": 61.4,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n29",
@@ -288,7 +344,9 @@
       "elevation": 71.54,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n30",
@@ -298,7 +356,9 @@
       "elevation": 75.33,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n31",
@@ -308,7 +368,9 @@
       "elevation": 65.01,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n32",
@@ -318,7 +380,9 @@
       "elevation": 71.16,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n33",
@@ -328,7 +392,9 @@
       "elevation": 60.59,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n34",
@@ -338,7 +404,9 @@
       "elevation": 65.85,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n35",
@@ -348,7 +416,9 @@
       "elevation": 59.63,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n36",
@@ -358,7 +428,9 @@
       "elevation": 70.2,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n37",
@@ -368,7 +440,9 @@
       "elevation": 63.92,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n38",
@@ -378,7 +452,9 @@
       "elevation": 58.58,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n39",
@@ -388,7 +464,9 @@
       "elevation": 62.98,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n40",
@@ -398,7 +476,9 @@
       "elevation": 60.21,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 2
     },
     {
       "id": "n41",
@@ -408,7 +488,9 @@
       "elevation": 69.3,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n42",
@@ -418,7 +500,9 @@
       "elevation": 61.06,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n43",
@@ -428,7 +512,9 @@
       "elevation": 61.86,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n44",
@@ -438,7 +524,9 @@
       "elevation": 66.12,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n45",
@@ -448,7 +536,9 @@
       "elevation": 62.6,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n46",
@@ -458,7 +548,9 @@
       "elevation": 38.88,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n47",
@@ -468,7 +560,9 @@
       "elevation": 38.7,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n48",
@@ -478,7 +572,9 @@
       "elevation": 40.11,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n49",
@@ -488,7 +584,9 @@
       "elevation": 34.87,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n50",
@@ -498,7 +596,9 @@
       "elevation": 44.72,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 2
     },
     {
       "id": "n51",
@@ -508,7 +608,9 @@
       "elevation": 29.85,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 2
     },
     {
       "id": "n52",
@@ -518,7 +620,9 @@
       "elevation": 33.21,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n53",
@@ -528,7 +632,9 @@
       "elevation": 29.13,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n54",
@@ -538,7 +644,9 @@
       "elevation": 36.67,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n55",
@@ -548,7 +656,9 @@
       "elevation": 43.7,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n56",
@@ -558,7 +668,9 @@
       "elevation": 32.7,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 2
     },
     {
       "id": "n57",
@@ -568,7 +680,9 @@
       "elevation": 34.58,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n58",
@@ -578,7 +692,9 @@
       "elevation": 30.1,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n59",
@@ -588,7 +704,9 @@
       "elevation": 40.54,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n60",
@@ -598,7 +716,9 @@
       "elevation": 36.55,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n61",
@@ -608,7 +728,9 @@
       "elevation": 36.57,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n62",
@@ -618,7 +740,9 @@
       "elevation": 35.96,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n63",
@@ -628,7 +752,9 @@
       "elevation": 37.01,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n64",
@@ -638,7 +764,9 @@
       "elevation": 34.92,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n65",
@@ -648,7 +776,9 @@
       "elevation": 36.22,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n66",
@@ -658,7 +788,9 @@
       "elevation": 34.28,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n67",
@@ -668,7 +800,9 @@
       "elevation": 32.5,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 2
     },
     {
       "id": "n68",
@@ -678,7 +812,9 @@
       "elevation": 41.09,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z14",
+      "criticality": 0
     },
     {
       "id": "n69",
@@ -688,7 +824,9 @@
       "elevation": 27.78,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 2
     },
     {
       "id": "n70",
@@ -698,7 +836,9 @@
       "elevation": 29.86,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n71",
@@ -708,7 +848,9 @@
       "elevation": 30.08,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n72",
@@ -718,7 +860,9 @@
       "elevation": 34.47,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n73",
@@ -728,7 +872,9 @@
       "elevation": 33.09,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n74",
@@ -738,7 +884,9 @@
       "elevation": 32.36,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n75",
@@ -748,7 +896,9 @@
       "elevation": 40.1,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n76",
@@ -758,7 +908,9 @@
       "elevation": 30.56,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n77",
@@ -768,7 +920,9 @@
       "elevation": 33.97,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n78",
@@ -778,7 +932,9 @@
       "elevation": 29.24,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n79",
@@ -788,7 +944,9 @@
       "elevation": 32.73,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n80",
@@ -798,7 +956,9 @@
       "elevation": 27.71,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 1
     },
     {
       "id": "n81",
@@ -808,7 +968,9 @@
       "elevation": 31.03,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n82",
@@ -818,7 +980,9 @@
       "elevation": 39.69,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n83",
@@ -828,7 +992,9 @@
       "elevation": 35.78,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n84",
@@ -838,7 +1004,9 @@
       "elevation": 28.81,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n85",
@@ -848,7 +1016,9 @@
       "elevation": 38.68,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n86",
@@ -858,7 +1028,9 @@
       "elevation": 38.11,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n87",
@@ -868,7 +1040,9 @@
       "elevation": 35.25,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n88",
@@ -878,7 +1052,9 @@
       "elevation": 34.23,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n89",
@@ -888,7 +1064,9 @@
       "elevation": 31.79,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n90",
@@ -898,7 +1076,9 @@
       "elevation": 36.4,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n91",
@@ -908,7 +1088,9 @@
       "elevation": 33.06,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n92",
@@ -918,7 +1100,9 @@
       "elevation": 33.1,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n93",
@@ -928,7 +1112,9 @@
       "elevation": 29.4,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n94",
@@ -938,7 +1124,9 @@
       "elevation": 27.52,
       "base_demand": 0.00015,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n95",
@@ -948,7 +1136,9 @@
       "elevation": 25.44,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n96",
@@ -958,7 +1148,9 @@
       "elevation": 24.19,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n97",
@@ -968,7 +1160,9 @@
       "elevation": 27.21,
       "base_demand": 0.00012,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n98",
@@ -978,7 +1172,9 @@
       "elevation": 25.56,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n99",
@@ -988,7 +1184,9 @@
       "elevation": 23.35,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n100",
@@ -998,7 +1196,9 @@
       "elevation": 25.07,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n101",
@@ -1008,7 +1208,9 @@
       "elevation": 24.16,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n102",
@@ -1018,7 +1220,9 @@
       "elevation": 23.69,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n103",
@@ -1028,7 +1232,9 @@
       "elevation": 24.36,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n104",
@@ -1038,7 +1244,9 @@
       "elevation": 20.96,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n105",
@@ -1048,7 +1256,9 @@
       "elevation": 24.02,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n106",
@@ -1058,7 +1268,9 @@
       "elevation": 23.5,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n107",
@@ -1068,7 +1280,9 @@
       "elevation": 23.54,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n108",
@@ -1078,7 +1292,9 @@
       "elevation": 19.82,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n109",
@@ -1088,7 +1304,9 @@
       "elevation": 23.5,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n110",
@@ -1098,7 +1316,9 @@
       "elevation": 23.84,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n111",
@@ -1108,7 +1328,9 @@
       "elevation": 25.0,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n112",
@@ -1118,7 +1340,9 @@
       "elevation": 23.57,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n113",
@@ -1128,7 +1352,9 @@
       "elevation": 23.61,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n114",
@@ -1138,7 +1364,9 @@
       "elevation": 20.48,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n115",
@@ -1148,7 +1376,9 @@
       "elevation": 23.83,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n116",
@@ -1158,7 +1388,9 @@
       "elevation": 20.91,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n117",
@@ -1168,7 +1400,9 @@
       "elevation": 26.96,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n118",
@@ -1178,7 +1412,9 @@
       "elevation": 19.1,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n119",
@@ -1188,7 +1424,9 @@
       "elevation": 20.09,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 1
     },
     {
       "id": "n120",
@@ -1198,7 +1436,9 @@
       "elevation": 22.62,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n121",
@@ -1208,7 +1448,9 @@
       "elevation": 19.4,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n122",
@@ -1218,7 +1460,9 @@
       "elevation": 22.49,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n123",
@@ -1228,7 +1472,9 @@
       "elevation": 21.53,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n124",
@@ -1238,7 +1484,9 @@
       "elevation": 22.65,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n125",
@@ -1248,7 +1496,9 @@
       "elevation": 20.59,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n126",
@@ -1258,7 +1508,9 @@
       "elevation": 19.17,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 1
     },
     {
       "id": "n127",
@@ -1268,7 +1520,9 @@
       "elevation": 19.12,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n128",
@@ -1278,7 +1532,9 @@
       "elevation": 22.1,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n129",
@@ -1288,7 +1544,9 @@
       "elevation": 25.9,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n130",
@@ -1298,7 +1556,9 @@
       "elevation": 22.17,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n131",
@@ -1308,7 +1568,9 @@
       "elevation": 19.55,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n132",
@@ -1318,7 +1580,9 @@
       "elevation": 20.38,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n133",
@@ -1328,7 +1592,9 @@
       "elevation": 22.58,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n134",
@@ -1338,7 +1604,9 @@
       "elevation": 19.21,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n135",
@@ -1348,7 +1616,9 @@
       "elevation": 19.12,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n136",
@@ -1358,7 +1628,9 @@
       "elevation": 20.3,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 2
     },
     {
       "id": "n137",
@@ -1368,7 +1640,9 @@
       "elevation": 19.69,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n138",
@@ -1378,7 +1652,9 @@
       "elevation": 20.84,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n139",
@@ -1388,7 +1664,9 @@
       "elevation": 19.66,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n140",
@@ -1398,7 +1676,9 @@
       "elevation": 27.35,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n141",
@@ -1408,7 +1688,9 @@
       "elevation": 23.13,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n142",
@@ -1418,7 +1700,9 @@
       "elevation": 19.62,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n143",
@@ -1428,7 +1712,9 @@
       "elevation": 20.88,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n144",
@@ -1438,7 +1724,9 @@
       "elevation": 26.95,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 2
     },
     {
       "id": "n145",
@@ -1448,7 +1736,9 @@
       "elevation": 22.13,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n146",
@@ -1458,7 +1748,9 @@
       "elevation": 21.83,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n147",
@@ -1468,7 +1760,9 @@
       "elevation": 19.97,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n148",
@@ -1478,7 +1772,9 @@
       "elevation": 20.15,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n149",
@@ -1488,7 +1784,9 @@
       "elevation": 20.95,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n150",
@@ -1498,7 +1796,9 @@
       "elevation": 22.69,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n151",
@@ -1508,7 +1808,9 @@
       "elevation": 19.84,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n152",
@@ -1518,7 +1820,9 @@
       "elevation": 19.13,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n153",
@@ -1528,7 +1832,9 @@
       "elevation": 22.64,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n154",
@@ -1538,7 +1844,9 @@
       "elevation": 20.36,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n155",
@@ -1548,7 +1856,9 @@
       "elevation": 26.39,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n156",
@@ -1558,7 +1868,9 @@
       "elevation": 20.06,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n157",
@@ -1568,7 +1880,9 @@
       "elevation": 20.45,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n158",
@@ -1578,7 +1892,9 @@
       "elevation": 19.75,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n159",
@@ -1588,7 +1904,9 @@
       "elevation": 27.01,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n160",
@@ -1598,7 +1916,9 @@
       "elevation": 20.21,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n161",
@@ -1608,7 +1928,9 @@
       "elevation": 21.32,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n162",
@@ -1618,7 +1940,9 @@
       "elevation": 26.97,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n163",
@@ -1628,7 +1952,9 @@
       "elevation": 21.61,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n164",
@@ -1638,7 +1964,9 @@
       "elevation": 20.27,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n165",
@@ -1648,7 +1976,9 @@
       "elevation": 19.81,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 2
     },
     {
       "id": "n166",
@@ -1658,7 +1988,9 @@
       "elevation": 20.27,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 1
     },
     {
       "id": "n167",
@@ -1668,7 +2000,9 @@
       "elevation": 22.54,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n168",
@@ -1678,7 +2012,9 @@
       "elevation": 20.44,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n169",
@@ -1688,7 +2024,9 @@
       "elevation": 27.02,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n170",
@@ -1698,7 +2036,9 @@
       "elevation": 23.23,
       "base_demand": 0.00016,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 2
     },
     {
       "id": "n171",
@@ -1708,7 +2048,9 @@
       "elevation": 20.61,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 1
     },
     {
       "id": "n172",
@@ -1718,7 +2060,9 @@
       "elevation": 19.16,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n173",
@@ -1728,7 +2072,9 @@
       "elevation": 21.06,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n174",
@@ -1738,7 +2084,9 @@
       "elevation": 21.43,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n175",
@@ -1748,7 +2096,9 @@
       "elevation": 19.35,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n176",
@@ -1758,7 +2108,9 @@
       "elevation": 27.7,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n177",
@@ -1768,7 +2120,9 @@
       "elevation": 19.35,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n178",
@@ -1778,7 +2132,9 @@
       "elevation": 21.9,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n179",
@@ -1788,7 +2144,9 @@
       "elevation": 19.49,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n180",
@@ -1798,7 +2156,9 @@
       "elevation": 22.78,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n181",
@@ -1808,7 +2168,9 @@
       "elevation": 23.7,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n182",
@@ -1818,7 +2180,9 @@
       "elevation": 25.09,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n183",
@@ -1828,7 +2192,9 @@
       "elevation": 19.39,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n184",
@@ -1838,7 +2204,9 @@
       "elevation": 27.24,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n185",
@@ -1848,7 +2216,9 @@
       "elevation": 19.08,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n186",
@@ -1858,7 +2228,9 @@
       "elevation": 21.82,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n187",
@@ -1868,7 +2240,9 @@
       "elevation": 19.03,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n188",
@@ -1878,7 +2252,9 @@
       "elevation": 18.88,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n189",
@@ -1888,7 +2264,9 @@
       "elevation": 18.68,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n190",
@@ -1898,7 +2276,9 @@
       "elevation": 19.65,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n191",
@@ -1908,7 +2288,9 @@
       "elevation": 27.48,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 2
     },
     {
       "id": "n192",
@@ -1918,7 +2300,9 @@
       "elevation": 22.21,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 1
     },
     {
       "id": "n193",
@@ -1928,7 +2312,9 @@
       "elevation": 19.7,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n194",
@@ -1938,7 +2324,9 @@
       "elevation": 19.76,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n195",
@@ -1948,7 +2336,9 @@
       "elevation": 16.83,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n196",
@@ -1958,7 +2348,9 @@
       "elevation": 19.82,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n197",
@@ -1968,7 +2360,9 @@
       "elevation": 16.58,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n198",
@@ -1978,7 +2372,9 @@
       "elevation": 22.85,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n199",
@@ -1988,7 +2384,9 @@
       "elevation": 16.55,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n200",
@@ -1998,7 +2396,9 @@
       "elevation": 18.24,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n201",
@@ -2008,7 +2408,9 @@
       "elevation": 19.11,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n202",
@@ -2018,7 +2420,9 @@
       "elevation": 17.94,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n203",
@@ -2028,7 +2432,9 @@
       "elevation": 22.03,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n204",
@@ -2038,7 +2444,9 @@
       "elevation": 16.44,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n205",
@@ -2048,7 +2456,9 @@
       "elevation": 6.98,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n206",
@@ -2058,7 +2468,9 @@
       "elevation": 7.91,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n207",
@@ -2068,7 +2480,9 @@
       "elevation": 2.06,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n208",
@@ -2078,7 +2492,9 @@
       "elevation": 5.91,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n209",
@@ -2088,7 +2504,9 @@
       "elevation": 4.61,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n210",
@@ -2098,7 +2516,9 @@
       "elevation": 2.75,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n211",
@@ -2108,7 +2528,9 @@
       "elevation": 4.85,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n212",
@@ -2118,7 +2540,9 @@
       "elevation": 2.35,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n213",
@@ -2128,7 +2552,9 @@
       "elevation": 3.24,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n214",
@@ -2138,7 +2564,9 @@
       "elevation": 16.83,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n215",
@@ -2148,7 +2576,9 @@
       "elevation": 2.01,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n216",
@@ -2158,7 +2588,9 @@
       "elevation": 2.41,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n217",
@@ -2168,7 +2600,9 @@
       "elevation": 1.87,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n218",
@@ -2178,7 +2612,9 @@
       "elevation": 29.6,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n219",
@@ -2188,7 +2624,9 @@
       "elevation": 28.45,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n220",
@@ -2198,7 +2636,9 @@
       "elevation": 30.75,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n221",
@@ -2208,7 +2648,9 @@
       "elevation": 28.22,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n222",
@@ -2218,7 +2660,9 @@
       "elevation": 28.06,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n223",
@@ -2228,7 +2672,9 @@
       "elevation": 28.56,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n224",
@@ -2238,7 +2684,9 @@
       "elevation": 26.91,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n225",
@@ -2248,7 +2696,9 @@
       "elevation": 25.5,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n226",
@@ -2258,7 +2708,9 @@
       "elevation": 6.11,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n227",
@@ -2268,7 +2720,9 @@
       "elevation": 5.79,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n228",
@@ -2278,7 +2732,9 @@
       "elevation": 27.39,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n229",
@@ -2288,7 +2744,9 @@
       "elevation": 21.58,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n230",
@@ -2298,7 +2756,9 @@
       "elevation": 28.4,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n231",
@@ -2308,7 +2768,9 @@
       "elevation": 4.86,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n232",
@@ -2318,7 +2780,9 @@
       "elevation": 26.04,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n233",
@@ -2328,7 +2792,9 @@
       "elevation": 4.42,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n234",
@@ -2338,7 +2804,9 @@
       "elevation": 5.1,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n235",
@@ -2348,7 +2816,9 @@
       "elevation": 24.1,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n236",
@@ -2358,7 +2828,9 @@
       "elevation": 3.09,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n237",
@@ -2368,7 +2840,9 @@
       "elevation": 4.08,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n238",
@@ -2378,7 +2852,9 @@
       "elevation": 24.61,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 2
     },
     {
       "id": "n239",
@@ -2388,7 +2864,9 @@
       "elevation": 22.97,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n240",
@@ -2398,7 +2876,9 @@
       "elevation": 28.81,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 1
     },
     {
       "id": "n241",
@@ -2408,7 +2888,9 @@
       "elevation": 22.2,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n242",
@@ -2418,7 +2900,9 @@
       "elevation": 2.36,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n243",
@@ -2428,7 +2912,9 @@
       "elevation": 2.66,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n244",
@@ -2438,7 +2924,9 @@
       "elevation": 21.25,
       "base_demand": 0.00016,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 2
     },
     {
       "id": "n245",
@@ -2448,7 +2936,9 @@
       "elevation": 28.66,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n246",
@@ -2458,7 +2948,9 @@
       "elevation": 1.9,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n247",
@@ -2468,7 +2960,9 @@
       "elevation": 2.12,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n248",
@@ -2478,7 +2972,9 @@
       "elevation": 29.31,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n249",
@@ -2488,7 +2984,9 @@
       "elevation": 28.53,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n250",
@@ -2498,7 +2996,9 @@
       "elevation": 28.41,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n251",
@@ -2508,7 +3008,9 @@
       "elevation": 21.3,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n252",
@@ -2518,7 +3020,9 @@
       "elevation": 24.7,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n253",
@@ -2528,7 +3032,9 @@
       "elevation": 2.29,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n254",
@@ -2538,7 +3044,9 @@
       "elevation": 2.22,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n255",
@@ -2548,7 +3056,9 @@
       "elevation": 20.94,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n256",
@@ -2558,7 +3068,9 @@
       "elevation": 17.78,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z03",
+      "criticality": 1
     },
     {
       "id": "n257",
@@ -2568,7 +3080,9 @@
       "elevation": 28.32,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n258",
@@ -2578,7 +3092,9 @@
       "elevation": 24.75,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n259",
@@ -2588,7 +3104,9 @@
       "elevation": 24.6,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n260",
@@ -2598,7 +3116,9 @@
       "elevation": 17.75,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n261",
@@ -2608,7 +3128,9 @@
       "elevation": 16.7,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n262",
@@ -2618,7 +3140,9 @@
       "elevation": 24.26,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n263",
@@ -2628,7 +3152,9 @@
       "elevation": 24.67,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n264",
@@ -2638,7 +3164,9 @@
       "elevation": 20.63,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n265",
@@ -2648,7 +3176,9 @@
       "elevation": 28.43,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n266",
@@ -2658,7 +3188,9 @@
       "elevation": 19.97,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 2
     },
     {
       "id": "n267",
@@ -2668,7 +3200,9 @@
       "elevation": 23.37,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n268",
@@ -2678,7 +3212,9 @@
       "elevation": 21.94,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n269",
@@ -2688,7 +3224,9 @@
       "elevation": 26.17,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n270",
@@ -2698,7 +3236,9 @@
       "elevation": 20.82,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n271",
@@ -2708,7 +3248,9 @@
       "elevation": 34.04,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n272",
@@ -2718,7 +3260,9 @@
       "elevation": 20.14,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n273",
@@ -2728,7 +3272,9 @@
       "elevation": 24.51,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n274",
@@ -2738,7 +3284,9 @@
       "elevation": 32.86,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n275",
@@ -2748,7 +3296,9 @@
       "elevation": 29.25,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n276",
@@ -2758,7 +3308,9 @@
       "elevation": 21.3,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n277",
@@ -2768,7 +3320,9 @@
       "elevation": 22.45,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n278",
@@ -2778,7 +3332,9 @@
       "elevation": 22.01,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n279",
@@ -2788,7 +3344,9 @@
       "elevation": 21.75,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n280",
@@ -2798,7 +3356,9 @@
       "elevation": 29.6,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n281",
@@ -2808,7 +3368,9 @@
       "elevation": 31.27,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n282",
@@ -2818,7 +3380,9 @@
       "elevation": 30.49,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n283",
@@ -2828,7 +3392,9 @@
       "elevation": 27.42,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n284",
@@ -2838,7 +3404,9 @@
       "elevation": 26.37,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n285",
@@ -2848,7 +3416,9 @@
       "elevation": 20.46,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n286",
@@ -2858,7 +3428,9 @@
       "elevation": 29.04,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n287",
@@ -2868,7 +3440,9 @@
       "elevation": 33.04,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n288",
@@ -2878,7 +3452,9 @@
       "elevation": 21.62,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n289",
@@ -2888,7 +3464,9 @@
       "elevation": 27.45,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n290",
@@ -2898,7 +3476,9 @@
       "elevation": 24.62,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n291",
@@ -2908,7 +3488,9 @@
       "elevation": 32.5,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n292",
@@ -2918,7 +3500,9 @@
       "elevation": 31.95,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n293",
@@ -2928,7 +3512,9 @@
       "elevation": 26.53,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n294",
@@ -2938,7 +3524,9 @@
       "elevation": 26.52,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n295",
@@ -2948,7 +3536,9 @@
       "elevation": 30.83,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n296",
@@ -2958,7 +3548,9 @@
       "elevation": 32.2,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n297",
@@ -2968,7 +3560,9 @@
       "elevation": 23.39,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n298",
@@ -2978,7 +3572,9 @@
       "elevation": 34.89,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n299",
@@ -2988,7 +3584,9 @@
       "elevation": 26.72,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n300",
@@ -2998,7 +3596,9 @@
       "elevation": 35.0,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n301",
@@ -3008,7 +3608,9 @@
       "elevation": 23.52,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n302",
@@ -3018,7 +3620,9 @@
       "elevation": 23.31,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n303",
@@ -3028,7 +3632,9 @@
       "elevation": 34.5,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n304",
@@ -3038,7 +3644,9 @@
       "elevation": 32.98,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n305",
@@ -3048,7 +3656,9 @@
       "elevation": 25.49,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n306",
@@ -3058,7 +3668,9 @@
       "elevation": 23.68,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n307",
@@ -3068,7 +3680,9 @@
       "elevation": 31.42,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n308",
@@ -3078,7 +3692,9 @@
       "elevation": 23.39,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n309",
@@ -3088,7 +3704,9 @@
       "elevation": 23.17,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n310",
@@ -3098,7 +3716,9 @@
       "elevation": 22.36,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n311",
@@ -3108,7 +3728,9 @@
       "elevation": 29.6,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n312",
@@ -3118,7 +3740,9 @@
       "elevation": 22.08,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n313",
@@ -3128,7 +3752,9 @@
       "elevation": 21.76,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n314",
@@ -3138,7 +3764,9 @@
       "elevation": 29.69,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n315",
@@ -3148,7 +3776,9 @@
       "elevation": 22.8,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n316",
@@ -3158,7 +3788,9 @@
       "elevation": 29.36,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n317",
@@ -3168,7 +3800,9 @@
       "elevation": 22.29,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n318",
@@ -3178,7 +3812,9 @@
       "elevation": 23.56,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n319",
@@ -3188,7 +3824,9 @@
       "elevation": 30.46,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n320",
@@ -3198,7 +3836,9 @@
       "elevation": 28.21,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n321",
@@ -3208,7 +3848,9 @@
       "elevation": 21.9,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n322",
@@ -3218,7 +3860,9 @@
       "elevation": 26.94,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n323",
@@ -3228,7 +3872,9 @@
       "elevation": 26.07,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n324",
@@ -3238,7 +3884,9 @@
       "elevation": 24.97,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n325",
@@ -3248,7 +3896,9 @@
       "elevation": 24.3,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n326",
@@ -3258,7 +3908,9 @@
       "elevation": 23.69,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n327",
@@ -3268,7 +3920,9 @@
       "elevation": 22.28,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 1
     },
     {
       "id": "n328",
@@ -3278,7 +3932,9 @@
       "elevation": 22.2,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n329",
@@ -3288,7 +3944,9 @@
       "elevation": 24.37,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n330",
@@ -3298,7 +3956,9 @@
       "elevation": 22.03,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n331",
@@ -3308,7 +3968,9 @@
       "elevation": 22.93,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n332",
@@ -3318,7 +3980,9 @@
       "elevation": 18.0,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n333",
@@ -3328,7 +3992,9 @@
       "elevation": 18.0,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n334",
@@ -3338,7 +4004,9 @@
       "elevation": 18.0,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n335",
@@ -3348,7 +4016,9 @@
       "elevation": 27.45,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n336",
@@ -3358,7 +4028,9 @@
       "elevation": 26.0,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n337",
@@ -3368,7 +4040,9 @@
       "elevation": 4.1,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n338",
@@ -3378,7 +4052,9 @@
       "elevation": 28.2,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n339",
@@ -3388,7 +4064,9 @@
       "elevation": 22.8,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": true
+      "is_leaf": true,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n340",
@@ -3398,7 +4076,9 @@
       "elevation": 30.1,
       "base_demand": 0.00013,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 2
     },
     {
       "id": "n341",
@@ -3408,7 +4088,9 @@
       "elevation": 22.8,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n342",
@@ -3418,7 +4100,9 @@
       "elevation": 27.36,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n343",
@@ -3428,7 +4112,9 @@
       "elevation": 66.12,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n344",
@@ -3438,7 +4124,9 @@
       "elevation": 74.28,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n345",
@@ -3448,7 +4136,9 @@
       "elevation": 71.23,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n346",
@@ -3458,7 +4148,9 @@
       "elevation": 67.93,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n347",
@@ -3468,7 +4160,9 @@
       "elevation": 73.66,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n348",
@@ -3478,7 +4172,9 @@
       "elevation": 74.11,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n349",
@@ -3488,7 +4184,9 @@
       "elevation": 74.56,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n350",
@@ -3498,7 +4196,9 @@
       "elevation": 75.02,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n351",
@@ -3508,7 +4208,9 @@
       "elevation": 75.47,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 2
     },
     {
       "id": "n352",
@@ -3518,7 +4220,9 @@
       "elevation": 74.11,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n353",
@@ -3528,7 +4232,9 @@
       "elevation": 73.55,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n354",
@@ -3538,7 +4244,9 @@
       "elevation": 73.91,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n355",
@@ -3548,7 +4256,9 @@
       "elevation": 66.46,
       "base_demand": 0.00012,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 2
     },
     {
       "id": "n356",
@@ -3558,7 +4268,9 @@
       "elevation": 67.34,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n357",
@@ -3568,7 +4280,9 @@
       "elevation": 69.75,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n358",
@@ -3578,7 +4292,9 @@
       "elevation": 75.98,
       "base_demand": 0.00015,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 2
     },
     {
       "id": "n359",
@@ -3588,7 +4304,9 @@
       "elevation": 76.05,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 2
     },
     {
       "id": "n360",
@@ -3598,7 +4316,9 @@
       "elevation": 64.97,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n361",
@@ -3608,7 +4328,9 @@
       "elevation": 65.46,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n362",
@@ -3618,7 +4340,9 @@
       "elevation": 74.02,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n363",
@@ -3628,7 +4352,9 @@
       "elevation": 73.69,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n364",
@@ -3638,7 +4364,9 @@
       "elevation": 63.44,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n365",
@@ -3648,7 +4376,9 @@
       "elevation": 63.82,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n366",
@@ -3658,7 +4388,9 @@
       "elevation": 61.87,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n367",
@@ -3668,7 +4400,9 @@
       "elevation": 61.75,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n368",
@@ -3678,7 +4412,9 @@
       "elevation": 71.09,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n369",
@@ -3688,7 +4424,9 @@
       "elevation": 60.59,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n370",
@@ -3698,7 +4436,9 @@
       "elevation": 60.59,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n371",
@@ -3708,7 +4448,9 @@
       "elevation": 73.82,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n372",
@@ -3718,7 +4460,9 @@
       "elevation": 65.87,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n373",
@@ -3728,7 +4472,9 @@
       "elevation": 59.66,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n374",
@@ -3738,7 +4484,9 @@
       "elevation": 74.97,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n375",
@@ -3748,7 +4496,9 @@
       "elevation": 73.83,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n376",
@@ -3758,7 +4508,9 @@
       "elevation": 72.69,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n377",
@@ -3768,7 +4520,9 @@
       "elevation": 62.92,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n378",
@@ -3778,7 +4532,9 @@
       "elevation": 68.96,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n379",
@@ -3788,7 +4544,9 @@
       "elevation": 70.09,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n380",
@@ -3798,7 +4556,9 @@
       "elevation": 61.23,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n381",
@@ -3808,7 +4568,9 @@
       "elevation": 74.05,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n382",
@@ -3818,7 +4580,9 @@
       "elevation": 72.76,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n383",
@@ -3828,7 +4592,9 @@
       "elevation": 71.48,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n384",
@@ -3838,7 +4604,9 @@
       "elevation": 69.54,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n385",
@@ -3848,7 +4616,9 @@
       "elevation": 66.89,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n386",
@@ -3858,7 +4628,9 @@
       "elevation": 59.39,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n387",
@@ -3868,7 +4640,9 @@
       "elevation": 64.94,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n388",
@@ -3878,7 +4652,9 @@
       "elevation": 63.77,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n389",
@@ -3888,7 +4664,9 @@
       "elevation": 67.02,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n390",
@@ -3898,7 +4676,9 @@
       "elevation": 38.16,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n391",
@@ -3908,7 +4688,9 @@
       "elevation": 37.63,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n392",
@@ -3918,7 +4700,9 @@
       "elevation": 37.09,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n393",
@@ -3928,7 +4712,9 @@
       "elevation": 38.88,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n394",
@@ -3938,7 +4724,9 @@
       "elevation": 39.05,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n395",
@@ -3948,7 +4736,9 @@
       "elevation": 39.23,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n396",
@@ -3958,7 +4748,9 @@
       "elevation": 39.4,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n397",
@@ -3968,7 +4760,9 @@
       "elevation": 39.58,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n398",
@@ -3978,7 +4772,9 @@
       "elevation": 39.75,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n399",
@@ -3988,7 +4784,9 @@
       "elevation": 39.93,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n400",
@@ -3998,7 +4796,9 @@
       "elevation": 40.26,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n401",
@@ -4008,7 +4808,9 @@
       "elevation": 40.4,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 2
     },
     {
       "id": "n402",
@@ -4018,7 +4820,9 @@
       "elevation": 41.26,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 1
     },
     {
       "id": "n403",
@@ -4028,7 +4832,9 @@
       "elevation": 42.42,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 2
     },
     {
       "id": "n404",
@@ -4038,7 +4844,9 @@
       "elevation": 43.57,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n405",
@@ -4048,7 +4856,9 @@
       "elevation": 34.72,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n406",
@@ -4058,7 +4868,9 @@
       "elevation": 29.98,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n407",
@@ -4068,7 +4880,9 @@
       "elevation": 31.66,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n408",
@@ -4078,7 +4892,9 @@
       "elevation": 36.32,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n409",
@@ -4088,7 +4904,9 @@
       "elevation": 42.12,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z13",
+      "criticality": 0
     },
     {
       "id": "n410",
@@ -4098,7 +4916,9 @@
       "elevation": 42.83,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z14",
+      "criticality": 0
     },
     {
       "id": "n411",
@@ -4108,7 +4928,9 @@
       "elevation": 41.96,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z14",
+      "criticality": 1
     },
     {
       "id": "n412",
@@ -4118,7 +4940,9 @@
       "elevation": 32.64,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n413",
@@ -4128,7 +4952,9 @@
       "elevation": 32.57,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n414",
@@ -4138,7 +4964,9 @@
       "elevation": 34.43,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n415",
@@ -4148,7 +4976,9 @@
       "elevation": 28.53,
       "base_demand": 0.00012,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n416",
@@ -4158,7 +4988,9 @@
       "elevation": 40.73,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z14",
+      "criticality": 0
     },
     {
       "id": "n417",
@@ -4168,7 +5000,9 @@
       "elevation": 40.91,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z14",
+      "criticality": 0
     },
     {
       "id": "n418",
@@ -4178,7 +5012,9 @@
       "elevation": 35.46,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n419",
@@ -4188,7 +5024,9 @@
       "elevation": 34.96,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n420",
@@ -4198,7 +5036,9 @@
       "elevation": 37.45,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n421",
@@ -4208,7 +5048,9 @@
       "elevation": 37.9,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n422",
@@ -4218,7 +5060,9 @@
       "elevation": 38.35,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n423",
@@ -4228,7 +5072,9 @@
       "elevation": 38.79,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 2
     },
     {
       "id": "n424",
@@ -4238,7 +5084,9 @@
       "elevation": 39.24,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n425",
@@ -4248,7 +5096,9 @@
       "elevation": 34.31,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n426",
@@ -4258,7 +5108,9 @@
       "elevation": 33.7,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n427",
@@ -4268,7 +5120,9 @@
       "elevation": 36.53,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 0
     },
     {
       "id": "n428",
@@ -4278,7 +5132,9 @@
       "elevation": 36.84,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n429",
@@ -4288,7 +5144,9 @@
       "elevation": 37.15,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n430",
@@ -4298,7 +5156,9 @@
       "elevation": 37.45,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n431",
@@ -4308,7 +5168,9 @@
       "elevation": 37.76,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n432",
@@ -4318,7 +5180,9 @@
       "elevation": 38.07,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n433",
@@ -4328,7 +5192,9 @@
       "elevation": 38.37,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 1
     },
     {
       "id": "n434",
@@ -4338,7 +5204,9 @@
       "elevation": 40.6,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 2
     },
     {
       "id": "n435",
@@ -4348,7 +5216,9 @@
       "elevation": 28.82,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 1
     },
     {
       "id": "n436",
@@ -4358,7 +5228,9 @@
       "elevation": 34.22,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n437",
@@ -4368,7 +5240,9 @@
       "elevation": 32.54,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n438",
@@ -4378,7 +5252,9 @@
       "elevation": 39.89,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n439",
@@ -4388,7 +5264,9 @@
       "elevation": 30.79,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n440",
@@ -4398,7 +5276,9 @@
       "elevation": 34.29,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n441",
@@ -4408,7 +5288,9 @@
       "elevation": 34.61,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n442",
@@ -4418,7 +5300,9 @@
       "elevation": 34.93,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n443",
@@ -4428,7 +5312,9 @@
       "elevation": 29.1,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n444",
@@ -4438,7 +5324,9 @@
       "elevation": 28.95,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n445",
@@ -4448,7 +5336,9 @@
       "elevation": 28.26,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n446",
@@ -4458,7 +5348,9 @@
       "elevation": 31.22,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 1
     },
     {
       "id": "n447",
@@ -4468,7 +5360,9 @@
       "elevation": 31.41,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 1
     },
     {
       "id": "n448",
@@ -4478,7 +5372,9 @@
       "elevation": 31.6,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n449",
@@ -4488,7 +5384,9 @@
       "elevation": 39.18,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n450",
@@ -4498,7 +5396,9 @@
       "elevation": 35.99,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n451",
@@ -4508,7 +5408,9 @@
       "elevation": 36.19,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 1
     },
     {
       "id": "n452",
@@ -4518,7 +5420,9 @@
       "elevation": 29.8,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n453",
@@ -4528,7 +5432,9 @@
       "elevation": 30.8,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 1
     },
     {
       "id": "n454",
@@ -4538,7 +5444,9 @@
       "elevation": 34.08,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 2
     },
     {
       "id": "n455",
@@ -4548,7 +5456,9 @@
       "elevation": 32.91,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n456",
@@ -4558,7 +5468,9 @@
       "elevation": 31.74,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n457",
@@ -4568,7 +5480,9 @@
       "elevation": 30.57,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 1
     },
     {
       "id": "n458",
@@ -4578,7 +5492,9 @@
       "elevation": 30.6,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n459",
@@ -4588,7 +5504,9 @@
       "elevation": 29.4,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n460",
@@ -4598,7 +5516,9 @@
       "elevation": 28.21,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 1
     },
     {
       "id": "n461",
@@ -4608,7 +5528,9 @@
       "elevation": 34.3,
       "base_demand": 0.00012,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 2
     },
     {
       "id": "n462",
@@ -4618,7 +5540,9 @@
       "elevation": 32.2,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 1
     },
     {
       "id": "n463",
@@ -4628,7 +5552,9 @@
       "elevation": 28.86,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n464",
@@ -4638,7 +5564,9 @@
       "elevation": 28.32,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n465",
@@ -4648,7 +5576,9 @@
       "elevation": 27.78,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n466",
@@ -4658,7 +5588,9 @@
       "elevation": 28.72,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n467",
@@ -4668,7 +5600,9 @@
       "elevation": 28.04,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n468",
@@ -4678,7 +5612,9 @@
       "elevation": 26.54,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n469",
@@ -4688,7 +5624,9 @@
       "elevation": 27.0,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n470",
@@ -4698,7 +5636,9 @@
       "elevation": 26.48,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n471",
@@ -4708,7 +5648,9 @@
       "elevation": 25.96,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n472",
@@ -4718,7 +5660,9 @@
       "elevation": 24.82,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n473",
@@ -4728,7 +5672,9 @@
       "elevation": 24.17,
       "base_demand": 0.00015,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n474",
@@ -4738,7 +5684,9 @@
       "elevation": 26.14,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n475",
@@ -4748,7 +5696,9 @@
       "elevation": 26.09,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n476",
@@ -4758,7 +5708,9 @@
       "elevation": 24.96,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n477",
@@ -4768,7 +5720,9 @@
       "elevation": 24.86,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n478",
@@ -4778,7 +5732,9 @@
       "elevation": 22.87,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n479",
@@ -4788,7 +5744,9 @@
       "elevation": 22.39,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n480",
@@ -4798,7 +5756,9 @@
       "elevation": 21.91,
       "base_demand": 0.00013,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 2
     },
     {
       "id": "n481",
@@ -4808,7 +5768,9 @@
       "elevation": 21.44,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n482",
@@ -4818,7 +5780,9 @@
       "elevation": 24.32,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n483",
@@ -4828,7 +5792,9 @@
       "elevation": 24.54,
       "base_demand": 0.00015,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n484",
@@ -4838,7 +5804,9 @@
       "elevation": 22.64,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n485",
@@ -4848,7 +5816,9 @@
       "elevation": 21.77,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n486",
@@ -4858,7 +5828,9 @@
       "elevation": 19.46,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n487",
@@ -4868,7 +5840,9 @@
       "elevation": 19.95,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n488",
@@ -4878,7 +5852,9 @@
       "elevation": 22.77,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n489",
@@ -4888,7 +5864,9 @@
       "elevation": 22.04,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 2
     },
     {
       "id": "n490",
@@ -4898,7 +5876,9 @@
       "elevation": 21.32,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n491",
@@ -4908,7 +5888,9 @@
       "elevation": 23.09,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n492",
@@ -4918,7 +5900,9 @@
       "elevation": 22.92,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n493",
@@ -4928,7 +5912,9 @@
       "elevation": 22.22,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n494",
@@ -4938,7 +5924,9 @@
       "elevation": 23.24,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n495",
@@ -4948,7 +5936,9 @@
       "elevation": 22.96,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n496",
@@ -4958,7 +5948,9 @@
       "elevation": 25.37,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n497",
@@ -4968,7 +5960,9 @@
       "elevation": 23.77,
       "base_demand": 0.00012,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n498",
@@ -4978,7 +5972,9 @@
       "elevation": 26.43,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n499",
@@ -4988,7 +5984,9 @@
       "elevation": 19.6,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 2
     },
     {
       "id": "n500",
@@ -4998,7 +5996,9 @@
       "elevation": 22.04,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n501",
@@ -5008,7 +6008,9 @@
       "elevation": 21.46,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n502",
@@ -5018,7 +6020,9 @@
       "elevation": 20.88,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n503",
@@ -5028,7 +6032,9 @@
       "elevation": 19.26,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 1
     },
     {
       "id": "n504",
@@ -5038,7 +6044,9 @@
       "elevation": 21.0,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n505",
@@ -5048,7 +6056,9 @@
       "elevation": 19.5,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n506",
@@ -5058,7 +6068,9 @@
       "elevation": 20.95,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n507",
@@ -5068,7 +6080,9 @@
       "elevation": 20.95,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n508",
@@ -5078,7 +6092,9 @@
       "elevation": 20.37,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n509",
@@ -5088,7 +6104,9 @@
       "elevation": 19.79,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n510",
@@ -5098,7 +6116,9 @@
       "elevation": 21.1,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n511",
@@ -5108,7 +6128,9 @@
       "elevation": 19.55,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n512",
@@ -5118,7 +6140,9 @@
       "elevation": 20.13,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n513",
@@ -5128,7 +6152,9 @@
       "elevation": 19.67,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n514",
@@ -5138,7 +6164,9 @@
       "elevation": 19.29,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n515",
@@ -5148,7 +6176,9 @@
       "elevation": 19.42,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n516",
@@ -5158,7 +6188,9 @@
       "elevation": 19.54,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n517",
@@ -5168,7 +6200,9 @@
       "elevation": 20.73,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n518",
@@ -5178,7 +6212,9 @@
       "elevation": 19.37,
       "base_demand": 0.00014,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n519",
@@ -5188,7 +6224,9 @@
       "elevation": 26.63,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n520",
@@ -5198,7 +6236,9 @@
       "elevation": 24.98,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n521",
@@ -5208,7 +6248,9 @@
       "elevation": 24.05,
       "base_demand": 0.00014,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n522",
@@ -5218,7 +6260,9 @@
       "elevation": 21.51,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n523",
@@ -5228,7 +6272,9 @@
       "elevation": 20.03,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 1
     },
     {
       "id": "n524",
@@ -5238,7 +6284,9 @@
       "elevation": 20.34,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n525",
@@ -5248,7 +6296,9 @@
       "elevation": 21.49,
       "base_demand": 0.00024,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n526",
@@ -5258,7 +6308,9 @@
       "elevation": 19.49,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n527",
@@ -5268,7 +6320,9 @@
       "elevation": 19.31,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 1
     },
     {
       "id": "n528",
@@ -5278,7 +6332,9 @@
       "elevation": 25.8,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n529",
@@ -5288,7 +6344,9 @@
       "elevation": 24.24,
       "base_demand": 0.00028,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "n530",
@@ -5298,7 +6356,9 @@
       "elevation": 19.38,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n531",
@@ -5308,7 +6368,9 @@
       "elevation": 19.8,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n532",
@@ -5318,7 +6380,9 @@
       "elevation": 20.91,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n533",
@@ -5328,7 +6392,9 @@
       "elevation": 20.47,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 2
     },
     {
       "id": "n534",
@@ -5338,7 +6404,9 @@
       "elevation": 25.54,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 1
     },
     {
       "id": "n535",
@@ -5348,7 +6416,9 @@
       "elevation": 24.13,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n536",
@@ -5358,7 +6428,9 @@
       "elevation": 22.73,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n537",
@@ -5368,7 +6440,9 @@
       "elevation": 22.26,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 0
     },
     {
       "id": "n538",
@@ -5378,7 +6452,9 @@
       "elevation": 19.07,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n539",
@@ -5388,7 +6464,9 @@
       "elevation": 20.7,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 1
     },
     {
       "id": "n540",
@@ -5398,7 +6476,9 @@
       "elevation": 18.92,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 1
     },
     {
       "id": "n541",
@@ -5408,7 +6488,9 @@
       "elevation": 19.18,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n542",
@@ -5418,7 +6500,9 @@
       "elevation": 24.79,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n543",
@@ -5428,7 +6512,9 @@
       "elevation": 23.2,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n544",
@@ -5438,7 +6524,9 @@
       "elevation": 20.13,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 2
     },
     {
       "id": "n545",
@@ -5448,7 +6536,9 @@
       "elevation": 19.76,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n546",
@@ -5458,7 +6548,9 @@
       "elevation": 19.77,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n547",
@@ -5468,7 +6560,9 @@
       "elevation": 19.78,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n548",
@@ -5478,7 +6572,9 @@
       "elevation": 19.8,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 2
     },
     {
       "id": "n549",
@@ -5488,7 +6584,9 @@
       "elevation": 19.55,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n550",
@@ -5498,7 +6596,9 @@
       "elevation": 19.36,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n551",
@@ -5508,7 +6608,9 @@
       "elevation": 25.52,
       "base_demand": 0.0002,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 2
     },
     {
       "id": "n552",
@@ -5518,7 +6620,9 @@
       "elevation": 24.03,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n553",
@@ -5528,7 +6632,9 @@
       "elevation": 19.99,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 1
     },
     {
       "id": "n554",
@@ -5538,7 +6644,9 @@
       "elevation": 19.78,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n555",
@@ -5548,7 +6656,9 @@
       "elevation": 19.56,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n556",
@@ -5558,7 +6668,9 @@
       "elevation": 20.88,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n557",
@@ -5568,7 +6680,9 @@
       "elevation": 25.1,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n558",
@@ -5578,7 +6692,9 @@
       "elevation": 20.12,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 0
     },
     {
       "id": "n559",
@@ -5588,7 +6704,9 @@
       "elevation": 19.96,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n560",
@@ -5598,7 +6716,9 @@
       "elevation": 19.8,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n561",
@@ -5608,7 +6728,9 @@
       "elevation": 19.65,
       "base_demand": 0.00021,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 2
     },
     {
       "id": "n562",
@@ -5618,7 +6740,9 @@
       "elevation": 19.48,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z01",
+      "criticality": 1
     },
     {
       "id": "n563",
@@ -5628,7 +6752,9 @@
       "elevation": 20.04,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n564",
@@ -5638,7 +6764,9 @@
       "elevation": 19.8,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 1
     },
     {
       "id": "n565",
@@ -5648,7 +6776,9 @@
       "elevation": 19.56,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n566",
@@ -5658,7 +6788,9 @@
       "elevation": 19.32,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n567",
@@ -5668,7 +6800,9 @@
       "elevation": 25.31,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n568",
@@ -5678,7 +6812,9 @@
       "elevation": 23.61,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 2
     },
     {
       "id": "n569",
@@ -5688,7 +6824,9 @@
       "elevation": 20.26,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n570",
@@ -5698,7 +6836,9 @@
       "elevation": 19.91,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 1
     },
     {
       "id": "n571",
@@ -5708,7 +6848,9 @@
       "elevation": 19.57,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n572",
@@ -5718,7 +6860,9 @@
       "elevation": 19.22,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n573",
@@ -5728,7 +6872,9 @@
       "elevation": 20.58,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 2
     },
     {
       "id": "n574",
@@ -5738,7 +6884,9 @@
       "elevation": 20.11,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n575",
@@ -5748,7 +6896,9 @@
       "elevation": 19.63,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n576",
@@ -5758,7 +6908,9 @@
       "elevation": 19.16,
       "base_demand": 0.00013,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 2
     },
     {
       "id": "n577",
@@ -5768,7 +6920,9 @@
       "elevation": 25.7,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n578",
@@ -5778,7 +6932,9 @@
       "elevation": 27.47,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n579",
@@ -5788,7 +6944,9 @@
       "elevation": 26.16,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n580",
@@ -5798,7 +6956,9 @@
       "elevation": 20.76,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n581",
@@ -5808,7 +6968,9 @@
       "elevation": 18.3,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n582",
@@ -5818,7 +6980,9 @@
       "elevation": 17.56,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n583",
@@ -5828,7 +6992,9 @@
       "elevation": 26.32,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n584",
@@ -5838,7 +7004,9 @@
       "elevation": 25.16,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n585",
@@ -5848,7 +7016,9 @@
       "elevation": 24.01,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n586",
@@ -5858,7 +7028,9 @@
       "elevation": 24.93,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n587",
@@ -5868,7 +7040,9 @@
       "elevation": 22.38,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n588",
@@ -5878,7 +7052,9 @@
       "elevation": 20.98,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n589",
@@ -5888,7 +7064,9 @@
       "elevation": 18.7,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n590",
@@ -5898,7 +7076,9 @@
       "elevation": 17.64,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n591",
@@ -5908,7 +7088,9 @@
       "elevation": 16.7,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n592",
@@ -5918,7 +7100,9 @@
       "elevation": 19.17,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n593",
@@ -5928,7 +7112,9 @@
       "elevation": 18.51,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n594",
@@ -5938,7 +7124,9 @@
       "elevation": 17.86,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n595",
@@ -5948,7 +7136,9 @@
       "elevation": 17.2,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n596",
@@ -5958,7 +7148,9 @@
       "elevation": 19.43,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n597",
@@ -5968,7 +7160,9 @@
       "elevation": 19.03,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n598",
@@ -5978,7 +7172,9 @@
       "elevation": 18.64,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n599",
@@ -5988,7 +7184,9 @@
       "elevation": 22.65,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 2
     },
     {
       "id": "n600",
@@ -5998,7 +7196,9 @@
       "elevation": 22.44,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n601",
@@ -6008,7 +7208,9 @@
       "elevation": 22.24,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n602",
@@ -6018,7 +7220,9 @@
       "elevation": 21.31,
       "base_demand": 0.00011,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 2
     },
     {
       "id": "n603",
@@ -6028,7 +7232,9 @@
       "elevation": 19.78,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n604",
@@ -6038,7 +7244,9 @@
       "elevation": 16.53,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n605",
@@ -6048,7 +7256,9 @@
       "elevation": 16.5,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n606",
@@ -6058,7 +7268,9 @@
       "elevation": 16.48,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n607",
@@ -6068,7 +7280,9 @@
       "elevation": 16.46,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n608",
@@ -6078,7 +7292,9 @@
       "elevation": 16.79,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n609",
@@ -6088,7 +7304,9 @@
       "elevation": 17.03,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n610",
@@ -6098,7 +7316,9 @@
       "elevation": 17.27,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n611",
@@ -6108,7 +7328,9 @@
       "elevation": 17.52,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n612",
@@ -6118,7 +7340,9 @@
       "elevation": 17.76,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n613",
@@ -6128,7 +7352,9 @@
       "elevation": 18.0,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n614",
@@ -6138,7 +7364,9 @@
       "elevation": 18.67,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 1
     },
     {
       "id": "n615",
@@ -6148,7 +7376,9 @@
       "elevation": 17.79,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n616",
@@ -6158,7 +7388,9 @@
       "elevation": 17.34,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n617",
@@ -6168,7 +7400,9 @@
       "elevation": 16.89,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n618",
@@ -6178,7 +7412,9 @@
       "elevation": 20.57,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n619",
@@ -6188,7 +7424,9 @@
       "elevation": 17.67,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n620",
@@ -6198,7 +7436,9 @@
       "elevation": 17.39,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n621",
@@ -6208,7 +7448,9 @@
       "elevation": 17.11,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n622",
@@ -6218,7 +7460,9 @@
       "elevation": 16.63,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z02",
+      "criticality": 0
     },
     {
       "id": "n623",
@@ -6228,7 +7472,9 @@
       "elevation": 7.01,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n624",
@@ -6238,7 +7484,9 @@
       "elevation": 2.4,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n625",
@@ -6248,7 +7496,9 @@
       "elevation": 5.0,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n626",
@@ -6258,7 +7508,9 @@
       "elevation": 4.63,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n627",
@@ -6268,7 +7520,9 @@
       "elevation": 30.18,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 2
     },
     {
       "id": "n628",
@@ -6278,7 +7532,9 @@
       "elevation": 28.88,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 1
     },
     {
       "id": "n629",
@@ -6288,7 +7544,9 @@
       "elevation": 28.17,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 0
     },
     {
       "id": "n630",
@@ -6298,7 +7556,9 @@
       "elevation": 28.26,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n631",
@@ -6308,7 +7568,9 @@
       "elevation": 28.33,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n632",
@@ -6318,7 +7580,9 @@
       "elevation": 30.36,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n633",
@@ -6328,7 +7592,9 @@
       "elevation": 29.97,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n634",
@@ -6338,7 +7604,9 @@
       "elevation": 29.57,
       "base_demand": 0.00014,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 2
     },
     {
       "id": "n635",
@@ -6348,7 +7616,9 @@
       "elevation": 29.18,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 1
     },
     {
       "id": "n636",
@@ -6358,7 +7628,9 @@
       "elevation": 28.79,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n637",
@@ -6368,7 +7640,9 @@
       "elevation": 26.98,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n638",
@@ -6378,7 +7652,9 @@
       "elevation": 25.9,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n639",
@@ -6388,7 +7664,9 @@
       "elevation": 24.82,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n640",
@@ -6398,7 +7676,9 @@
       "elevation": 23.74,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n641",
@@ -6408,7 +7688,9 @@
       "elevation": 22.66,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n642",
@@ -6418,7 +7700,9 @@
       "elevation": 27.93,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n643",
@@ -6428,7 +7712,9 @@
       "elevation": 27.3,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n644",
@@ -6438,7 +7724,9 @@
       "elevation": 26.67,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n645",
@@ -6448,7 +7736,9 @@
       "elevation": 28.33,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n646",
@@ -6458,7 +7748,9 @@
       "elevation": 28.09,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n647",
@@ -6468,7 +7760,9 @@
       "elevation": 27.86,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n648",
@@ -6478,7 +7772,9 @@
       "elevation": 27.62,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 0
     },
     {
       "id": "n649",
@@ -6488,7 +7784,9 @@
       "elevation": 26.21,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n650",
@@ -6498,7 +7796,9 @@
       "elevation": 25.51,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n651",
@@ -6508,7 +7808,9 @@
       "elevation": 24.81,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n652",
@@ -6518,7 +7820,9 @@
       "elevation": 26.21,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n653",
@@ -6528,7 +7832,9 @@
       "elevation": 24.66,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n654",
@@ -6538,7 +7844,9 @@
       "elevation": 23.81,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n655",
@@ -6548,7 +7856,9 @@
       "elevation": 24.67,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n656",
@@ -6558,7 +7868,9 @@
       "elevation": 23.85,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n657",
@@ -6568,7 +7880,9 @@
       "elevation": 23.02,
       "base_demand": 0.00012,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 2
     },
     {
       "id": "n658",
@@ -6578,7 +7892,9 @@
       "elevation": 28.1,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 1
     },
     {
       "id": "n659",
@@ -6588,7 +7904,9 @@
       "elevation": 28.7,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 1
     },
     {
       "id": "n660",
@@ -6598,7 +7916,9 @@
       "elevation": 29.01,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 2
     },
     {
       "id": "n661",
@@ -6608,7 +7928,9 @@
       "elevation": 27.78,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n662",
@@ -6618,7 +7940,9 @@
       "elevation": 26.76,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n663",
@@ -6628,7 +7952,9 @@
       "elevation": 25.73,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n664",
@@ -6638,7 +7964,9 @@
       "elevation": 27.68,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n665",
@@ -6648,7 +7976,9 @@
       "elevation": 26.7,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n666",
@@ -6658,7 +7988,9 @@
       "elevation": 25.73,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n667",
@@ -6668,7 +8000,9 @@
       "elevation": 2.06,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n668",
@@ -6678,7 +8012,9 @@
       "elevation": 30.1,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z11",
+      "criticality": 2
     },
     {
       "id": "n669",
@@ -6688,7 +8024,9 @@
       "elevation": 30.89,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n670",
@@ -6698,7 +8036,9 @@
       "elevation": 31.67,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n671",
@@ -6708,7 +8048,9 @@
       "elevation": 32.46,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n672",
@@ -6718,7 +8060,9 @@
       "elevation": 33.25,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n673",
@@ -6728,7 +8072,9 @@
       "elevation": 20.41,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n674",
@@ -6738,7 +8084,9 @@
       "elevation": 19.52,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 1
     },
     {
       "id": "n675",
@@ -6748,7 +8096,9 @@
       "elevation": 18.63,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n676",
@@ -6758,7 +8108,9 @@
       "elevation": 22.82,
       "base_demand": 0.00015,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 2
     },
     {
       "id": "n677",
@@ -6768,7 +8120,9 @@
       "elevation": 20.78,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n678",
@@ -6778,7 +8132,9 @@
       "elevation": 28.38,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n679",
@@ -6788,7 +8144,9 @@
       "elevation": 27.1,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n680",
@@ -6798,7 +8156,9 @@
       "elevation": 25.89,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n681",
@@ -6808,7 +8168,9 @@
       "elevation": 17.85,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n682",
@@ -6818,7 +8180,9 @@
       "elevation": 18.99,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n683",
@@ -6828,7 +8192,9 @@
       "elevation": 22.44,
       "base_demand": 0.00016,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 2
     },
     {
       "id": "n684",
@@ -6838,7 +8204,9 @@
       "elevation": 25.36,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n685",
@@ -6848,7 +8216,9 @@
       "elevation": 26.05,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n686",
@@ -6858,7 +8228,9 @@
       "elevation": 26.73,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n687",
@@ -6868,7 +8240,9 @@
       "elevation": 20.39,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n688",
@@ -6878,7 +8252,9 @@
       "elevation": 20.99,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n689",
@@ -6888,7 +8264,9 @@
       "elevation": 26.23,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n690",
@@ -6898,7 +8276,9 @@
       "elevation": 26.3,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n691",
@@ -6908,7 +8288,9 @@
       "elevation": 20.48,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n692",
@@ -6918,7 +8300,9 @@
       "elevation": 34.18,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n693",
@@ -6928,7 +8312,9 @@
       "elevation": 34.32,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n694",
@@ -6938,7 +8324,9 @@
       "elevation": 34.47,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n695",
@@ -6948,7 +8336,9 @@
       "elevation": 34.61,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n696",
@@ -6958,7 +8348,9 @@
       "elevation": 34.75,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n697",
@@ -6968,7 +8360,9 @@
       "elevation": 20.24,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 0
     },
     {
       "id": "n698",
@@ -6978,7 +8372,9 @@
       "elevation": 20.35,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z03",
+      "criticality": 1
     },
     {
       "id": "n699",
@@ -6988,7 +8384,9 @@
       "elevation": 24.55,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n700",
@@ -6998,7 +8396,9 @@
       "elevation": 24.59,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n701",
@@ -7008,7 +8408,9 @@
       "elevation": 32.92,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n702",
@@ -7018,7 +8420,9 @@
       "elevation": 32.98,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n703",
@@ -7028,7 +8432,9 @@
       "elevation": 22.99,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n704",
@@ -7038,7 +8444,9 @@
       "elevation": 23.54,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n705",
@@ -7048,7 +8456,9 @@
       "elevation": 24.08,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n706",
@@ -7058,7 +8468,9 @@
       "elevation": 21.69,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n707",
@@ -7068,7 +8480,9 @@
       "elevation": 21.11,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n708",
@@ -7078,7 +8492,9 @@
       "elevation": 31.05,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n709",
@@ -7088,7 +8504,9 @@
       "elevation": 30.32,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n710",
@@ -7098,7 +8516,9 @@
       "elevation": 30.14,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n711",
@@ -7108,7 +8528,9 @@
       "elevation": 29.96,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n712",
@@ -7118,7 +8540,9 @@
       "elevation": 29.78,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n713",
@@ -7128,7 +8552,9 @@
       "elevation": 20.68,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n714",
@@ -7138,7 +8564,9 @@
       "elevation": 20.89,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n715",
@@ -7148,7 +8576,9 @@
       "elevation": 21.11,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n716",
@@ -7158,7 +8588,9 @@
       "elevation": 21.33,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n717",
@@ -7168,7 +8600,9 @@
       "elevation": 21.54,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n718",
@@ -7178,7 +8612,9 @@
       "elevation": 28.92,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n719",
@@ -7188,7 +8624,9 @@
       "elevation": 28.8,
       "base_demand": 9e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 2
     },
     {
       "id": "n720",
@@ -7198,7 +8636,9 @@
       "elevation": 28.69,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n721",
@@ -7208,7 +8648,9 @@
       "elevation": 28.57,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n722",
@@ -7218,7 +8660,9 @@
       "elevation": 28.45,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n723",
@@ -7228,7 +8672,9 @@
       "elevation": 28.33,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n724",
@@ -7238,7 +8684,9 @@
       "elevation": 33.02,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n725",
@@ -7248,7 +8696,9 @@
       "elevation": 33.0,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n726",
@@ -7258,7 +8708,9 @@
       "elevation": 27.37,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n727",
@@ -7268,7 +8720,9 @@
       "elevation": 27.3,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n728",
@@ -7278,7 +8732,9 @@
       "elevation": 27.23,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n729",
@@ -7288,7 +8744,9 @@
       "elevation": 27.16,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n730",
@@ -7298,7 +8756,9 @@
       "elevation": 27.08,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n731",
@@ -7308,7 +8768,9 @@
       "elevation": 27.01,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n732",
@@ -7318,7 +8780,9 @@
       "elevation": 26.62,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n733",
@@ -7328,7 +8792,9 @@
       "elevation": 25.52,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n734",
@@ -7338,7 +8804,9 @@
       "elevation": 24.52,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n735",
@@ -7348,7 +8816,9 @@
       "elevation": 31.03,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n736",
@@ -7358,7 +8828,9 @@
       "elevation": 31.22,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n737",
@@ -7368,7 +8840,9 @@
       "elevation": 32.59,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n738",
@@ -7378,7 +8852,9 @@
       "elevation": 33.59,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n739",
@@ -7388,7 +8864,9 @@
       "elevation": 32.29,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n740",
@@ -7398,7 +8876,9 @@
       "elevation": 30.99,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n741",
@@ -7408,7 +8888,9 @@
       "elevation": 26.61,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n742",
@@ -7418,7 +8900,9 @@
       "elevation": 26.5,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n743",
@@ -7428,7 +8912,9 @@
       "elevation": 26.4,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n744",
@@ -7438,7 +8924,9 @@
       "elevation": 26.29,
       "base_demand": 0.0001,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 2
     },
     {
       "id": "n745",
@@ -7448,7 +8936,9 @@
       "elevation": 26.18,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n746",
@@ -7458,7 +8948,9 @@
       "elevation": 33.91,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n747",
@@ -7468,7 +8960,9 @@
       "elevation": 33.05,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n748",
@@ -7478,7 +8972,9 @@
       "elevation": 32.19,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 1
     },
     {
       "id": "n749",
@@ -7488,7 +8984,9 @@
       "elevation": 31.32,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n750",
@@ -7498,7 +8996,9 @@
       "elevation": 22.84,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n751",
@@ -7508,7 +9008,9 @@
       "elevation": 25.4,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n752",
@@ -7518,7 +9020,9 @@
       "elevation": 25.31,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n753",
@@ -7528,7 +9032,9 @@
       "elevation": 25.23,
       "base_demand": 7e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n754",
@@ -7538,7 +9044,9 @@
       "elevation": 25.14,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n755",
@@ -7548,7 +9056,9 @@
       "elevation": 25.05,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n756",
@@ -7558,7 +9068,9 @@
       "elevation": 23.64,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n757",
@@ -7568,7 +9080,9 @@
       "elevation": 23.6,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n758",
@@ -7578,7 +9092,9 @@
       "elevation": 30.51,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 0
     },
     {
       "id": "n759",
@@ -7588,7 +9104,9 @@
       "elevation": 22.98,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n760",
@@ -7598,7 +9116,9 @@
       "elevation": 22.18,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n761",
@@ -7608,7 +9128,9 @@
       "elevation": 21.83,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n762",
@@ -7618,7 +9140,9 @@
       "elevation": 23.18,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n763",
@@ -7628,7 +9152,9 @@
       "elevation": 23.81,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n764",
@@ -7638,7 +9164,9 @@
       "elevation": 24.06,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n765",
@@ -7648,7 +9176,9 @@
       "elevation": 29.59,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n766",
@@ -7658,7 +9188,9 @@
       "elevation": 28.72,
       "base_demand": 5e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n767",
@@ -7668,7 +9200,9 @@
       "elevation": 27.85,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n768",
@@ -7678,7 +9212,9 @@
       "elevation": 26.98,
       "base_demand": 6e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n769",
@@ -7688,7 +9224,9 @@
       "elevation": 26.11,
       "base_demand": 8e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 1
     },
     {
       "id": "n770",
@@ -7698,7 +9236,9 @@
       "elevation": 25.24,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z08",
+      "criticality": 0
     },
     {
       "id": "n771",
@@ -7708,7 +9248,9 @@
       "elevation": 21.93,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n772",
@@ -7718,7 +9260,9 @@
       "elevation": 21.96,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n773",
@@ -7728,7 +9272,9 @@
       "elevation": 21.99,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n774",
@@ -7738,7 +9284,9 @@
       "elevation": 23.65,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n775",
@@ -7748,7 +9296,9 @@
       "elevation": 22.48,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z04",
+      "criticality": 0
     },
     {
       "id": "n776",
@@ -7758,7 +9308,9 @@
       "elevation": 28.77,
       "base_demand": 0.00017,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z10",
+      "criticality": 2
     },
     {
       "id": "n777",
@@ -7768,7 +9320,9 @@
       "elevation": 25.5,
       "base_demand": 2e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n778",
@@ -7778,7 +9332,9 @@
       "elevation": 27.92,
       "base_demand": 0.0,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n779",
@@ -7788,7 +9344,9 @@
       "elevation": 27.64,
       "base_demand": 4e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n780",
@@ -7798,7 +9356,9 @@
       "elevation": 26.4,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z07",
+      "criticality": 0
     },
     {
       "id": "n781",
@@ -7808,7 +9368,9 @@
       "elevation": 24.6,
       "base_demand": 1e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "n782",
@@ -7818,7 +9380,9 @@
       "elevation": 25.08,
       "base_demand": 3e-05,
       "is_source": false,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z06",
+      "criticality": 0
     },
     {
       "id": "R1",
@@ -7828,7 +9392,9 @@
       "elevation": 100.0,
       "base_demand": 0.0,
       "is_source": true,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z12",
+      "criticality": 2
     },
     {
       "id": "R2",
@@ -7838,7 +9404,9 @@
       "elevation": 100.0,
       "base_demand": 0.0,
       "is_source": true,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z05",
+      "criticality": 2
     },
     {
       "id": "T1",
@@ -7848,7 +9416,9 @@
       "elevation": 98.68,
       "base_demand": 0.0,
       "is_source": true,
-      "is_leaf": false
+      "is_leaf": false,
+      "zone_id": "Z09",
+      "criticality": 2
     }
   ],
   "links": [

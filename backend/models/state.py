@@ -11,6 +11,7 @@ logger = get_logger("HydroMind.DigitalTwin")
 class DigitalTwinState:
     def __init__(self):
         self.phase = "AMBIENT"
+        self.original_scenario = "AMBIENT"
         self.step = 0
         self.pressure_m = 20.0
         self.valve_pct = 46.1
@@ -60,6 +61,17 @@ class DigitalTwinState:
             self.state, reward, done, truncated, info = self.env.step(action=[0.46])
             self.pressure_m = info.get('tail_pressure', 4.5)
             self.nrw_loss_pct = 18.5
+            self.status_msg = "⭙ RUPTURE: PRESSURE DROPPING"
+
+        elif self.phase == "SURGE":
+            self.state, reward, done, truncated, info = self.env.step(action=[0.46])
+            self.pressure_m = max(5.0, self.pressure_m - 0.3)  # Simulate gradual pressure drop
+            self.status_msg = "⚡ SECTOR SURGE: DEMAND SPIKE DETECTED"
+
+        elif self.phase == "SHORTAGE":
+            self.state, reward, done, truncated, info = self.env.step(action=[0.46])
+            self.pressure_m = max(3.0, self.pressure_m * 0.97)  # Simulate gradual system-wide decay
+            self.status_msg = "▼ GLOBAL SUPPLY DROP: RESERVOIR FAILURE"
 
         elif self.phase == "AI_RECOVERY":
             try:
@@ -96,3 +108,4 @@ class DigitalTwinState:
             self.nrw_loss_pct = min(40.0, self.nrw_loss_pct + random.uniform(0.1, 0.5))
         else:
             self.nrw_loss_pct = max(4.0, self.nrw_loss_pct - random.uniform(0.1, 0.5))
+            self.ai_alert = None  # Clear alert automatically when back to normal

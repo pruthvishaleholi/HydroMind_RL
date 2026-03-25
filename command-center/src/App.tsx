@@ -93,7 +93,7 @@ function App() {
           <span className="font-data text-xs text-slate-500">{clock}</span>
           
           {/* Connection Status */}
-          <div className="flex items-center gap-1.5">
+          <div className="flex items-center gap-1.5 border-r border-slate-700/50 pr-4 mr-2">
             <span className={`w-2 h-2 rounded-full ${cc.color} ${connectionStatus === 'CONNECTED' ? 'animate-breathe' : ''}`}></span>
             <span className="text-[9px] text-slate-500 font-semibold tracking-wider">{cc.label}</span>
           </div>

@@ -4,7 +4,20 @@ import { TopologicalMapProps } from '../TopologicalMap';
 import { useUIStore } from '../store/uiStore';
 
 /* --- Helpers --- */
-function pressureColor(pressure: number | undefined) {
+function pressureColor(pressure: number | undefined, status?: string) {
+    // Status-aware coloring takes priority
+    if (status === 'SURGE_EPICENTER') return '#dc2626';  // Bright red
+    if (status === 'SURGE_CONE') return '#f97316';       // Orange gradient
+    if (status === 'AI_BOOSTING') return '#22d3ee';      // Bright cyan — AI increasing supply
+    if (status === 'AI_REROUTING') return '#818cf8';     // Indigo — AI rerouting flow
+    if (status === 'AI_PRIORITIZED') return '#06b6d4';   // Cyan — priority infrastructure
+    if (status === 'AI_BALANCED') return '#2dd4bf';      // Teal — balanced allocation
+    if (status === 'AI_STABILIZED') return '#10b981';    // Emerald — stable
+    if (status === 'ELEVATION_VULNERABLE') return '#f59e0b'; // Amber
+    if (status === 'CRITICAL_VULNERABLE') return '#ef4444';  // Red
+    if (status === 'SUPPLY_REDUCED') return '#eab308';    // Yellow
+    if (status === 'ISOLATED') return '#475569';          // Gray
+    // Default pressure-based
     if (pressure === null || pressure === undefined) return '#38bdf8';
     if (pressure >= 18) return '#10b981';
     if (pressure >= 12) return '#eab308';
@@ -270,11 +283,34 @@ export default function CanvasMap(props: TopologicalMapProps) {
             const isAnomaly = anomalyNode === node.id;
             const live = nodeStates[node.id] || {};
             const p = live.pressure_m;
+            const nodeStatus = (live as any).status;
+            const nodeCrit = (live as any).criticality;
             
             const fillColor = isAnomaly && scenario === 'SURGE'
                 ? '#facc15' : node.is_source
                     ? '#3b82f6' : node.is_leaf
-                        ? '#f59e0b' : pressureColor(p);
+                        ? '#f59e0b' : pressureColor(p, nodeStatus);
+
+            // Pulsing halo for surge epicenter/cone and critical vulnerable nodes
+            if (nodeStatus === 'SURGE_EPICENTER' || nodeStatus === 'SURGE_CONE' || nodeStatus === 'CRITICAL_VULNERABLE') {
+                const haloPhase = (dashOffset.current * 0.05) % (Math.PI * 2);
+                const haloAlpha = 0.15 + 0.15 * Math.sin(haloPhase);
+                const haloRadius = nodeStatus === 'SURGE_EPICENTER' ? 35 : 20;
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, haloRadius, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(239,68,68,${haloAlpha})`;
+                ctx.fill();
+            }
+            // Criticality ring for critical infrastructure (crit=2)
+            if (nodeCrit === 2 && !node.is_source) {
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, 12, 0, Math.PI * 2);
+                ctx.lineWidth = 1.5;
+                ctx.strokeStyle = 'rgba(220,38,38,0.6)';
+                ctx.setLineDash([3, 3]);
+                ctx.stroke();
+                ctx.setLineDash([]);
+            }
 
             // Selection indicator
             if (isSelected) {
@@ -650,6 +686,15 @@ export default function CanvasMap(props: TopologicalMapProps) {
                         <>
                             <div className="tooltip-row"><span>Pressure</span><span className="tooltip-val">{nodeStates[tooltip.id]?.pressure_m?.toFixed(2) || '—'} m</span></div>
                             <div className="tooltip-row"><span>Demand</span><span className="tooltip-val">{nodeStates[tooltip.id]?.demand_lps?.toFixed(2) || (tooltip.data.base_demand*1000).toFixed(2)} L/s</span></div>
+                            {(nodeStates[tooltip.id] as any)?.status && (
+                                <div className="tooltip-row"><span>Status</span><span className="tooltip-val" style={{color: pressureColor(undefined, (nodeStates[tooltip.id] as any)?.status)}}>{(nodeStates[tooltip.id] as any)?.status}</span></div>
+                            )}
+                            {(nodeStates[tooltip.id] as any)?.zone_id && (
+                                <div className="tooltip-row"><span>Zone</span><span className="tooltip-val">{(nodeStates[tooltip.id] as any)?.zone_id}</span></div>
+                            )}
+                            {(nodeStates[tooltip.id] as any)?.criticality !== undefined && (
+                                <div className="tooltip-row"><span>Priority</span><span className="tooltip-val">{['Residential','Commercial','Critical'][(nodeStates[tooltip.id] as any)?.criticality] || 'Unknown'}</span></div>
+                            )}
                         </>
                     ) : (
                         <>
@@ -666,6 +711,8 @@ export default function CanvasMap(props: TopologicalMapProps) {
                 <div className="legend-item"><span className="legend-swatch" style={{ background: '#f59e0b' }}></span>Leaf</div>
                 <div className="legend-item"><span className="legend-swatch" style={{ background: '#10b981' }}></span>Healthy</div>
                 <div className="legend-item"><span className="legend-swatch" style={{ background: '#ef4444' }}></span>Critical</div>
+                <div className="legend-item"><span className="legend-swatch" style={{ background: '#22d3ee' }}></span>AI Boost</div>
+                <div className="legend-item"><span className="legend-swatch" style={{ background: '#818cf8' }}></span>AI Reroute</div>
                 <div className="legend-item"><span className="legend-swatch" style={{ background: '#a78bfa' }}></span>Selected</div>
             </div>
 

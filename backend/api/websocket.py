@@ -2,8 +2,11 @@ import asyncio
 import json
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from backend.models.state import DigitalTwinState
-from backend.simulation.physics import _get_network_reachability, _generate_node_states, _generate_link_states, _resolve_targets_to_nodes
-from main import trigger_rupture, trigger_surge, reset_scenarios
+from backend.simulation.physics import (
+    _get_network_reachability, _generate_node_states, _generate_link_states,
+    _resolve_targets_to_nodes, compute_network_analytics, get_triage_sacrifice_zones
+)
+from main import trigger_rupture, trigger_surge, trigger_shortage, reset_scenarios
 from backend.database.db import insert_telemetry_tick
 from backend.utils.logger import get_logger
 
@@ -44,6 +47,7 @@ async def websocket_endpoint(websocket: WebSocket):
                     import datetime
                     ts = datetime.datetime.now().strftime("%H:%M:%S")
                     get_twin_state().phase = "RUPTURE"
+                    get_twin_state().original_scenario = "RUPTURE"
                     get_twin_state().active_target = target
                     get_twin_state().active_targets = targets
                     get_twin_state().ai_logs.append(f"[{ts}] [CRITICAL] ⭙ RUPTURE DETECTED AT {targets}")
@@ -54,6 +58,7 @@ async def websocket_endpoint(websocket: WebSocket):
 
                 elif action == "trigger_surge":
                     get_twin_state().phase = "SURGE"
+                    get_twin_state().original_scenario = "SURGE"
                     get_twin_state().active_target = target
                     get_twin_state().active_targets = targets
                     for t in targets:
@@ -63,6 +68,7 @@ async def websocket_endpoint(websocket: WebSocket):
 
                 elif action == "trigger_shortage":
                     get_twin_state().phase = "SHORTAGE"
+                    get_twin_state().original_scenario = "SHORTAGE"
                     get_twin_state().active_target = target
                     get_twin_state().active_targets = targets
                     import datetime
@@ -100,12 +106,20 @@ async def websocket_endpoint(websocket: WebSocket):
                     import datetime
                     ts = datetime.datetime.now().strftime("%H:%M:%S")
                     get_twin_state().phase = "AMBIENT"
+                    get_twin_state().original_scenario = "AMBIENT"
                     get_twin_state().total_loss = 0.0
+                    get_twin_state().ai_alert = None
                     get_twin_state().active_target = None
                     get_twin_state().active_targets = []
-                    get_twin_state().closed_links = set()
-                    get_twin_state().ai_logs.append(f"[{ts}] [SYSTEM] ↺ GRID RESET TO AMBIENT")
-                    get_twin_state().ai_alert = None
+                    get_twin_state().closed_links.clear()
+                    # Crucial: Reset the underlying stateful physics environment (wntr)
+                    try:
+                        get_twin_state().state = get_twin_state().env.reset(apply_anomaly=False) 
+                    except Exception as e:
+                        print(f"Warning: Environment reset failed: {e}")
+                        
+                    get_twin_state().ai_logs.append(f"[{ts}] SCADA Manual Override: System Reset to Ambient")
+                    get_twin_state().status_msg = "Nominal System Operating"
                     reset_scenarios()
                     logger.info("System Reset: AMBIENT")
 
@@ -115,7 +129,7 @@ async def websocket_endpoint(websocket: WebSocket):
             nonlocal frame_count
             if not hasattr(get_twin_state(), 'ai_saved'):
                 get_twin_state().ai_saved = 0.0
-                
+
             while True:
                 get_twin_state().advance_physics()
                 frame_count += 1
@@ -130,7 +144,7 @@ async def websocket_endpoint(websocket: WebSocket):
                     "step": get_twin_state().step,
                     "phase": get_twin_state().phase,
                     "pressure_m": round(get_twin_state().pressure_m, 2),
-                    "valve_pct": get_twin_state().valve_pct if get_twin_state().phase in ["AI_RECOVERY", "RUPTURE"] else 100.0,
+                    "valve_pct": get_twin_state().valve_pct if get_twin_state().phase in ["AI_RECOVERY", "RUPTURE", "SURGE", "SHORTAGE"] else 100.0,
                     "leak_rate_lps": current_leak,
                     "economic_bleed": round(get_twin_state().total_loss, 2),
                     "status": get_twin_state().status_msg,
@@ -140,21 +154,27 @@ async def websocket_endpoint(websocket: WebSocket):
                     "closed_links": list(get_twin_state().closed_links),
                     "ai_logs": get_twin_state().ai_logs,
                     "ai_alert": get_twin_state().ai_alert,
-                    "ai_saved": round(get_twin_state().ai_saved, 2)
+                    "ai_saved": round(get_twin_state().ai_saved, 2),
                 }
-                
+
                 # Persist telemetry payload every tick asynchronously using TSDB
                 insert_telemetry_tick(payload)
 
                 if frame_count % 5 == 0:
                     anomaly_targets = getattr(get_twin_state(), 'active_targets', []) or []
                     rch, dwn = _get_network_reachability(get_twin_state().closed_links, anomaly_targets, get_twin_state().phase)
-                    payload["node_states"] = _generate_node_states(
-                        get_twin_state().phase, get_twin_state().step, rch, dwn, anomaly_targets
+
+                    proposed_nodes = _generate_node_states(
+                        get_twin_state().phase, get_twin_state().step, rch, dwn, anomaly_targets, None, getattr(get_twin_state(), 'original_scenario', 'AMBIENT')
                     )
+                    payload["node_states"] = proposed_nodes
                     payload["link_states"] = _generate_link_states(
-                        get_twin_state().phase, get_twin_state().step, get_twin_state().closed_links, rch, dwn, anomaly_targets
+                        get_twin_state().phase, get_twin_state().step, get_twin_state().closed_links, rch, dwn, anomaly_targets, None, getattr(get_twin_state(), 'original_scenario', 'AMBIENT')
                     )
+
+                    # Compute analytics
+                    analytics = compute_network_analytics(payload["node_states"])
+                    payload["network_analytics"] = analytics
 
                 await websocket.send_text(json.dumps(payload))
                 await asyncio.sleep(0.1)

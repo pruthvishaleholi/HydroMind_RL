@@ -105,7 +105,7 @@ class AquaFlowEnv(gym.Env):
             house_b = self.wn.get_node(self.node_b)
             house_b.demand_timeseries_list[0].base_value *= 5.0
 
-    def reset(self, seed=None, options=None):
+    def reset(self, seed=None, options=None, apply_anomaly=True):
         super().reset(seed=seed)
 
         # MEMORY OPTIMIZATION: Aggressive cleanup before loading new map
@@ -115,7 +115,10 @@ class AquaFlowEnv(gym.Env):
             gc.collect()
 
         self.wn = wntr.network.WaterNetworkModel(self.network_file)
-        self.apply_scenario()
+        if apply_anomaly:
+            self.apply_scenario()
+        else:
+            self.current_scenario = "NORMAL"
 
         self.sim = wntr.sim.WNTRSimulator(self.wn)
         self.current_step = 0
@@ -179,11 +182,6 @@ class AquaFlowEnv(gym.Env):
         }
         terminated = self.current_step >= self.wn.options.time.duration
         truncated = False
-
-        info = {
-            "scenario": self.current_scenario,
-            "node_b_pressure": pressure_B
-        }
 
         # MEMORY OPTIMIZATION: Destroy the massive physics dictionary immediately
         del results
